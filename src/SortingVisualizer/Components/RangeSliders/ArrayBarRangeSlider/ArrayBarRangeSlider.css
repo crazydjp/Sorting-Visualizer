@@ -1,0 +1,21 @@
+#text-array-size {
+  color: white;
+}
+
+@media only screen and (max-width: 820px) {
+  #text-array-size {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #text-array-size {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #text-array-size {
+    font-size: xx-small;
+  }
+}

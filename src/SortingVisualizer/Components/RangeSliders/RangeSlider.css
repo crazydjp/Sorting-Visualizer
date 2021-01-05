@@ -1,0 +1,12 @@
+#range-slider {
+  height: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: visibility 0.3s linear, opacity 0.3s linear;
+}
+
+.column {
+  width: 80%;
+  /* align-self: center; */
+  justify-self: center;
+}

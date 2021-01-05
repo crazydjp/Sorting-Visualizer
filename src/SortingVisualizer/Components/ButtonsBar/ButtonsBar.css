@@ -1,0 +1,73 @@
+.buttons-bar {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 50vw;
+  font-size: medium;
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 510px) {
+  button {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  button {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  button {
+    font-size: xx-small;
+  }
+}
+
+button:hover {
+  font-style: bold;
+  border-width: 0.3vh;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonStyle1:hover {
+  border-color: green;
+  color: green;
+}
+
+.buttonStyle2:hover {
+  border-color: peru;
+  color: peru;
+}
+
+#reset {
+  opacity: 0.6;
+  background-color: orangered;
+}
+#reset:hover {
+  opacity: 0.9;
+}
+
+button:disabled,
+.buttonStyle1:disabled,
+.buttonStyle2:disabled,
+#reset:disabled {
+  background-color: grey;
+  color: white;
+  border-width: 0vw;
+  opacity: 1;
+  cursor: not-allowed;
+}
